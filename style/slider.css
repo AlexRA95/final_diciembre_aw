@@ -1,0 +1,67 @@
+
+.container {
+    width: 50%;
+    padding: 1rem;
+    float: left;
+}
+
+ul,
+li {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+ul.slider {
+    position: relative;
+    width: 1400px;
+    height: 750px;
+}
+
+ul.slider li {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    opacity: 0;
+    width: inherit;
+    height: inherit;
+    transition: opacity .5s;
+    
+}
+
+ul.slider li img {
+    width: 1400px;
+    height: 750px;
+    object-fit: cover;
+}
+
+ul.slider li:first-child {
+    opacity: 1;
+}
+
+ul.slider li:target {
+    opacity: 1;
+}
+
+.menu {
+    text-align: center;
+    margin-top: 2rem;
+    margin-left: 400pt;
+}
+
+.menu li {
+    display: inline-block;
+    text-align: center;
+}
+
+.menu li a {
+    display: inline-block;
+    color: #000;
+    text-decoration: none;
+    background-color: green;
+    width: 20pt;
+    height: 20pt;
+    font-size: 20pt;
+    border-radius: 100%;
+    margin-top: 1rem;
+}
