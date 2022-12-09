@@ -1,0 +1,143 @@
+*{
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+}
+
+/*Cabecera*/
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+}
+
+@font-face {
+    font-family: 'roman';
+    src: url(../../../font/Rosmatika\ \(DEMO\).ttf);
+}
+
+#header {
+    background-color: #fff;
+    box-shadow: 0px 1px 3px #000;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+img {
+    margin-top: 1rem;
+    height: 3.5rem;
+}
+
+#left,
+#right {
+    display: inline-block;
+}
+
+#left {
+    color: green;
+    margin-left: 1rem;
+    font-size: 4rem;
+    text-align: center;
+    margin-top: 0;
+}
+
+#left .name{
+    font-family: roman;
+}
+
+#right {
+    float: right;
+    
+    margin: 2.5rem;
+}
+
+#box{
+    margin: 1rem;
+}
+
+#box a{
+    text-decoration: none;
+    color: green;
+}
+
+/*Cuerpo*/
+
+#content{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #fff;
+}
+
+#content #cajon{
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+
+#content #cajon #caj img{
+    height: 10rem;
+    width: 18rem;
+}
+
+#content #cajon #caj p{
+    text-align: center;
+    font-size: 1.2rem
+}
+
+#content #cajon #caj{
+    display: inline-block;
+    background-color: rgba(0, 128, 0, 0.7);
+    border-radius: 1rem;
+    color: #fff;
+    margin: 1rem 5rem;
+    padding-bottom: 1.5rem;
+    font-weight: bold;
+}
+
+#content #cajon #caj .cur{
+    background-color: aqua;
+    color: #000;
+    margin-left: 1rem;
+    margin-bottom: 2rem;
+    border-radius: 1.5rem;
+    padding: 0.3rem;
+    font-weight: bold;
+}
+
+/*Footer*/
+
+#footer{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #000;
+    background-color: rgba(0, 128, 0, 0.7);
+    font-weight: bold;
+    height: 50%;
+}
+
+#footer p{
+    padding-left: 2rem;
+    padding-top: 2rem;
+}
+
+#footer iframe{
+    float: right;
+    margin-right: 34rem;
+}
+
+ul{
+    list-style: none;
+}
+
+ul li{
+    padding: 1rem;
+}
+
+#hor{
+    display: inline-block;
+    padding: 2rem;
+    font-size: 3rem;
+}
+
+#footer a{
+    text-decoration: none;
+    color: #000;
+}
