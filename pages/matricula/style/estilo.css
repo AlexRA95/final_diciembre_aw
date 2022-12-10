@@ -1,109 +1,97 @@
 *{
     box-sizing: border-box;
-}
-
-html, body{
-    height: 100%;
-}
-
-/*Cabecera*/
-body {
-    margin: 0;
-    padding: 0;
-    background-color: #fff;
-}
-
-@font-face {
-    font-family: 'roman';
-    src: url(../../../font/Rosmatika\ \(DEMO\).ttf);
-}
-
-#header {
-    background-color: #fff;
-    box-shadow: 0px 1px 3px #000;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-img {
-    margin-top: 1rem;
-    height: 3.5rem;
+body{
+    margin: 2rem;
+    background-color: #fff;
 }
 
-#left,
-#right {
-    display: inline-block;
-}
-
-#left {
-    color: green;
-    margin-left: 1rem;
-    font-size: 4rem;
-    text-align: center;
-    margin-top: 0;
-}
-
-#left .name{
-    font-family: roman;
-}
-
-#right {
-    float: right;
-    
-    margin: 2.5rem;
-}
-
-#box{
-    margin: 1rem;
-}
-
-#box a{
-    text-decoration: none;
-    color: green;
-}
-
-#box a:hover{
-    text-decoration: underline;
-}
-
-/*Cuerpo*/
-
-
-
-/*Footer*/
-
-#footer{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: #000;
-    background-color: rgba(0, 128, 0, 0.7);
-    font-weight: bold;
-    height: 50%;
-}
-
-#footer p{
-    padding-left: 2rem;
-    padding-top: 2rem;
-}
-
-#footer iframe{
-    float: right;
-    margin-right: 34rem;
-}
-
-ul{
-    list-style: none;
-}
-
-ul li{
-    padding: 1rem;
-}
-
-#hor{
-    display: inline-block;
+form{
+    margin: 0 auto; 
+    width: 50%;
+    background-color: green;
+    font-size: 1.5rem;
+    border-radius: 2rem;
     padding: 2rem;
+}
+
+form input, select, a{
+    display: block;
+    margin: 1rem auto;
+    padding: 0.9rem;
+    width: 80%;
+    border-radius: 1rem;
+    border-color: #000;
+}
+
+form input, select{
+    transition: background-color 0.4s linear, font-size 0.4s linear;
+}
+
+form h3{
+    text-align: center;
     font-size: 3rem;
 }
 
-#footer a{
+form a{
+    text-align: center;
     text-decoration: none;
     color: #000;
+    padding: 0;
+}
+
+form a:hover{
+    text-decoration: underline;
+}
+
+form input:focus{
+    background-color: rgba(147, 250, 165, 1); 
+    border-color: #000;
+    font-size: 1.5rem;
+}
+
+form input:hover{
+    background-color: rgba(147, 250, 165, 1); 
+    border-color: #000;
+    font-size: 1.5rem;
+}
+
+form select:focus{
+    background-color: rgba(147, 250, 165, 1); 
+    border-color: #000;
+    font-size: 1.5rem;
+}
+
+form select:hover{
+    background-color: rgba(147, 250, 165, 1); 
+    border-color: #000;
+    font-size: 1.5rem;
+}
+
+form #boton1:hover{
+    background-color: rgba(147, 250, 165, 1); 
+    font-size: 1.5rem;
+}
+
+form #boton2:hover{
+    background-color: rgba(255, 0, 0, 0.6); 
+    font-size: 1.5rem;
+}
+
+form input:invalid{
+    background-color: rgba(255, 0, 0, 0.6); 
+    font-size: 1.5rem;
+}
+
+form #remem{
+    display: inline;
+    width: auto;
+    text-align: center;
+    margin-right: 1rem;
+}
+
+form label{
+    display: inline;
 }
